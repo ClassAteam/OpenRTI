@@ -8,3 +8,9 @@ install_manifest.txt
 Testing
 .gdb_history
 *~
+/TAGS
+/cscope.files
+/cscope.in.out
+/cscope.out
+/cscope.po.out
+/build/
