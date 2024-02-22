@@ -1,0 +1,18 @@
+* Inbox
+** [2024-02-20 Вт 16:29] Look how far the implementation could be put away
+the actual declaration in Socket.h file lol
+
+[[file:~/repo/OpenRTI/src/OpenRTI/posix/SocketPosix.cpp::Socket::isOpen() const]]
+** [2024-02-20 Вт 15:43] this is where insert method of dispatcher is used for example
+
+[[file:~/repo/OpenRTI/src/OpenRTI/NetworkServer.cpp::NetworkServer::listenInet(const SocketAddress& socketAddress, int backlog)]]
+** [2024-02-20 Вт 15:05] and this is actual implementation for posix, for example
+
+[[file:~/repo/OpenRTI/src/OpenRTI/posix/SocketEventDispatcherPosix.cpp]]
+** [2024-02-20 Вт 15:05] This is general API for Socket event dispatcher
+
+[[file:~/repo/OpenRTI/src/OpenRTI/SocketEventDispatcher.h::PrivateData* _privateData;]]
+** [2024-02-19 Пн 11:26] Actual test in interaction.cpp
+  this is the actual test objective of the interaction
+
+[[file:~/repo/OpenRTI/tests/rti1516/interaction/interaction.cpp::virtual bool execJoined(rti1516::RTIambassador& ambassador)]]
