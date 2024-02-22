@@ -1,4 +1,12 @@
 * Inbox
+** [2024-02-22 Чт 15:29] it is where I stoped for now
+  void createFederationExecution(const std::string& federationExecutionName,
+                                 const FOMStringModuleList& fomModules,
+                                 const std::string& logicalTimeFactoryName)
+
+[[file:~/repo/OpenRTI/src/OpenRTI/Ambassador.h::void createFederationExecution(const std::string& federationExecutionName,
+ const FOMStringModuleList& fomModules,
+ const std::string& logicalTimeFactoryName)]]
 ** [2024-02-20 Вт 16:29] Look how far the implementation could be put away
 the actual declaration in Socket.h file lol
 
