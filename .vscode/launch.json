@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "cppdbg:create-1516",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/bin/create-1516",
+            "args": ["-S0", "-A1", "-O", "/home/yuri/repo/OpenRTI/tests/rti1516/fdd.xml"],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false
+        },
+        {
+            "name": "cppdbg:interaction-test",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/bin/interaction-1516",
+            "args": ["-S1", "-A1", "-J", "-O", "/home/yuri/repo/OpenRTI/tests/rti1516/interaction/fdd.xml"],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false
+        }
+    ]
+}
